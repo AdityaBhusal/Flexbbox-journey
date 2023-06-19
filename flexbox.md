@@ -29,4 +29,5 @@ Flexbox has a main and cross axis. The main axis is defined by the *flex-directi
 *   *nowrap **(default)*** prevents your items from wrapping and shrink them if needed.
 
 ## *justify-content*
-*
+* determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them
+* *center* aligns the space around it to make the content in the center of the page
