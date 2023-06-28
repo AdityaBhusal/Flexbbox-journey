@@ -68,3 +68,26 @@ defines the size of the gap between the rows and between the columns in flexbox,
 gap: 20px 50px; 
 /*gap of 20 px in row and 50 px in column (both grid and flexbox)*/
 ```
+
+## *pseudo-element*
+  *pseudo element is not an exclusive property of flexbox but this is one of the most important properties used in css.*
+
+* is used to : 
+  * style specified parts of an element
+  * insert content ***before***, or ***after***, the content of an element
+
+  ### syntax
+  ``` css
+  selector::pseudo-element {
+  property: value;
+  }
+  ```
+
+* all the pseudo-elements used in CSS are listed below:
+  
+    * ***after:*** insert something after the content of the element
+    * ***before:*** insert something before the content of the element
+    * ***first-letter:*** selects the first letter of the element
+    * ***first-line:*** selects the first-line of the element
+    * ***marker:*** selects the markers of list items 
+    * ***selection:*** selects the portion of an elemnent that is selected by a user  
