@@ -46,3 +46,25 @@ Flexbox has a main and cross axis. The main axis is defined by the *flex-directi
 * *baseline* - items positioned at the baseline of the container
 * *initial* - sets the property to default value
 * *inherit* - inherits the property from parent element
+
+## *object-fit*
+> **The object-fit property defines how an element responds to the height and width of its content box. It’s intended for images, videos and other embeddable media formats in conjunction with the object-position property. Used by itself, object-fit lets us crop an inline image by giving us fine-grained control over how it squishes and stretches inside its box.**
+
+* ***fill***(default):  stretches the image to fit the content box, regardless of its aspect-ratio
+
+* ***contain***: increases or decreases the size of the image to fill the box whilst preserving its aspect-ratio 
+
+* ***cover***: the image will fill the height and width of its box, once again maintaining its aspect ratio but often cropping the image in the process
+
+* ***none***: image will ignore the height and width of the parent and retain its original size
+
+* ***scale-down***: image will compare the difference between none and contain in order to find the smallest concrete object size.
+
+## *gap*
+defines the size of the gap between the rows and between the columns in flexbox, grid or multi-column layout
+* shorthand for the *row-gap* and *column-gap* property
+
+```css
+gap: 20px 50px; 
+/*gap of 20 px in row and 50 px in column (both grid and flexbox)*/
+```
