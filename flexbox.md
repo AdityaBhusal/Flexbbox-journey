@@ -90,4 +90,7 @@ gap: 20px 50px;
     * ***first-letter:*** selects the first letter of the element
     * ***first-line:*** selects the first-line of the element
     * ***marker:*** selects the markers of list items 
-    * ***selection:*** selects the portion of an elemnent that is selected by a user  
+    * ***selection:*** selects the portion of an elemnent that is selected by a user. 
+
+
+#### *This concludes my Flexbox learning journey. Thank you for visiting my github and reading and using it all along.*
